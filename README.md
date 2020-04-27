@@ -1,7 +1,7 @@
 # iTalk
 
 ## Introduction
-iTalk is a social media React app that I have been doing for Alama boot camp final project. It’s fully a single page app. 
+iTalk is a social media React app that I have been doing for Alama boot camp final project. It’s fully a single page app and is deployed on Firebase. 
 ## Tools 
  __Frontend__
 * React library
@@ -28,7 +28,7 @@ iTalk is a social media React app that I have been doing for Alama boot camp fin
 *	A user can mention another user in a tweet using its userId. 
 *	A user can hover over a mention in a tweet and instantaneously see who the mentioned person is without going to another page.   
 
-_These are features added in the app. But they has not been finished yet._
+_These are features added in the app. But they have not been finished yet._
 *	Can’t like a tweet. 
 *	Trending tweets do not work. 
 *	Profile editor pop up but doesn’t work.
