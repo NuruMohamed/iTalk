@@ -40,7 +40,7 @@ It’s responsive for desktop screens. It’s not displayed on phone and tablet 
  The app has a good over-all performance. One issue, It’s sluggish when following and unfollowing a user. Thus, sometimes it might cause other features not to respond. One reason for the performance problem is, there are operation on the client-side that should have been performed on the server-side. Unfortunately, to use server-side code, Firebase Cloud Functions require a billing account to be enabled for external triggers.
 
 ## Security 
-It has high securities vulnerabilities. Database operations are performed on the client-side as Firebase Cloud Functions require billing account to be enabled for external triggers.  
+It has high security vulnerabilities. Database operations are performed on the client-side as Firebase Cloud Functions require billing account to be enabled for external triggers.  
 
 ## Final Note
 I am lucky and privileged to have the chance to take part in this boot camp. I have got far more that I depicted at the beginning. I am inspired to see you curiously spending your time, money and knowledge for others to grow. That’s really inspiring as I practically know how service can bring a huge change. Even though I haven’t fulfilled my project expectation I had at first I began it because of final project and internet access, it’s an eye opening experience and you have got me to brace myself. Thank you!  
