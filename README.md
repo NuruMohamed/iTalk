@@ -29,7 +29,7 @@ iTalk is a social media React app that I have been doing for Alama boot camp fin
 *	A user can hover over a mention in a tweet and instantaneously see who the mentioned person is without going to another page.   
 
 _These are features added in the app. But they have not been finished yet._
-*	Can’t like a tweet. 
+*	User can’t like a tweet. 
 *	Trending tweets do not work. 
 *	Profile editor pop up but doesn’t work.
 
@@ -43,4 +43,4 @@ It’s responsive for desktop screens. It’s not displayed on phone and tablet 
 It has high security vulnerabilities. Database operations are performed on the client-side as Firebase Cloud Functions require billing account to be enabled for external triggers.  
 
 ## Final Note
-I am lucky and privileged to have the chance to take part in this boot camp. I have got far more that I depicted at the beginning. I am inspired to see you curiously spending your time, money and knowledge for others to grow. That’s really inspiring as I practically know how service can bring a huge change. Even though I haven’t fulfilled my project expectation I had at first I began it because of final project and internet access, it’s an eye opening experience and you have got me to brace myself. Thank you!  
+I am lucky and privileged to have the chance to take part in this boot camp. I have got far more than I depicted at the beginning. I am inspired to see you curiously spending your time, money and knowledge for others to grow. That’s really inspiring as I practically know how service can bring a huge change. Even though I haven’t fulfilled my project expectation I had at first I began it because of final project and internet access, it’s an eye opening experience and you have got me to brace myself. Thank you!  
