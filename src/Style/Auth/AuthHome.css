@@ -1,0 +1,41 @@
+html {
+    min-height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#authHomeContainer {
+    display: flex;
+    flex-direction: row;
+    min-height: 100%;
+    width: 100%;
+}
+
+        #leftSide {
+            display: flex;
+            width: 50%;
+            min-height: 100%;
+            background-color: #04A8FC;
+            align-items: center;
+            justify-self: center;
+            background-image: url(./iTalk.png);
+            background-size: cover;
+        }
+                #logoContainer {
+                    height: 50vh;
+                    min-width: 50%;
+                    background-color: greenyellow;
+                    background-image: url(./iTalk.png);
+                    background-size: 500px;
+                }
+        #rightSide {
+            /* display: flex; */
+            width: 50%;
+            min-height: 100%;
+            /* background-color: yellow; */
+            /* align-items: center; */
+            /* justify-self: center; */
+            /* background-image: url(./iTalk.png); */
+            /* background-size: cover; */
+        }
+        

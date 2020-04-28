@@ -1,0 +1,84 @@
+.eachTweet {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(128, 128, 128, 0.2);
+    border-radius: 5px;
+    width: 100%;
+    padding: 1%;
+    margin-bottom: 2%;
+}
+        .tweetUserInfo {
+            display: flex;
+            align-items: center;
+        }
+                .tweetUserPicture {
+                    height: 8vh;
+                    width: 8vh;
+                    border-radius: 10vh;
+                }
+                .tweetUserFullName {
+                    margin-left: 2%;
+                }
+                .tweetUserId {
+                    font-size: 14px;
+                    margin-left: 1%;
+                    color: rgb(128, 128, 128);
+                }
+        .tweetContent {
+            width: 90%;
+            margin-left: 10%;
+            margin-bottom: 1%;
+        }
+                .tweetHashtag {
+                    color: #04A8FC;
+                }
+                .tweetMention {
+                    color: #04A8FC;
+                    cursor: pointer;
+                }
+
+        .tweetReaction {
+            width: 8%;
+            margin: auto;
+        }
+                .tweetReactionIcon {
+                    color: #E50000;
+                    cursor: pointer;
+                }
+                .numberOfTweetReactions {
+                    position: relative;
+                    top:-7px;
+                }
+        
+#tweetMentionTooltip {
+    position: fixed;
+    display: none;
+    width: 20vw;
+    height: 10vh;
+    border: 1px solid #04A8FC;
+    padding: 5px;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+}
+        #tooltipPicture {
+            height: 50px;
+            width: 50px;
+            border-radius: 100%;
+        }
+        #tooltipUsername {
+            font-weight: bold;
+            margin-left: 2%;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+
+#tweetsPaginationLoading {
+    height: 5vh;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1vh;
+    border-radius: 5px;
+    background-color: rgb(128, 128, 128, 0.2);
+}

@@ -1,0 +1,46 @@
+#searchField {
+    width: 100%;
+    padding: 2%;
+    border-radius: 5px;
+    border: 1px solid rgba(204, 204, 204, 0.5);
+    background-color: white;
+    background-image: url('');
+    background-position: right;
+}
+#searchResult {
+    position: fixed;
+    display: none;
+    padding-left: 1%;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px gray;
+    max-height: 50vh;
+    min-height: 20vh;
+    width: 23.2vw;
+    background-color: white;
+}
+        #searchResultPeople {
+            color: #04A8FC;
+            border-bottom: 1px solid #04A8FC;
+            width: 100%;
+        }
+        .searchResultUserInfo {
+            display: flex;
+            align-items: center;
+            margin-top: 1%;
+            padding: 1%;
+            cursor: pointer;
+            border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+        }
+                .searchResultUserPicture {
+                    height: 15%;
+                    width: 15%;
+                    border-radius: 100%;
+                }
+                .searchResultUserFullName {
+                    margin-left: 2%;
+                }
+                .searchResultUserId {
+                    font-size: 14px;
+                    margin-left: 1%;
+                    color: rgb(128, 128, 128);
+                }

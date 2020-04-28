@@ -1,0 +1,42 @@
+#singelChatMessagesContainer {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid green; */
+    height:43%;
+    padding: 1%;
+    background-color: white;
+    overflow: hidden;
+}
+#singelChatMessagesContainer::-webkit-scrollbar {
+    width: 2%;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgba(128, 128, 128, 0.5);
+    border-radius: 5px;
+    position: end;
+}
+#singelChatMessagesContainer:hover {
+    overflow-y: auto;
+}
+#singelChatMessagesContainer:not( :hover) {
+    padding-right:2.8% ;
+}
+        .singleChatMessages {
+            position: relative;
+            max-width: 80%;
+            font-size: 14px;
+            word-wrap: break-word;
+            word-break: break-all;
+            padding:1.5%;
+            border-radius: 5px;
+            margin-bottom: 1.5%;
+        }
+        .singleChatMessageSent {
+            align-self: flex-end;
+            background-color: rgb(4, 168, 252);
+            color: white;
+        }
+        .singleChatMessageRecieved {
+            align-self: flex-start;
+            background-color:#E3E8EB ;
+        }

@@ -1,0 +1,10 @@
+.header {
+    /* the header aleays remains on top regarless of any activities */
+    position: fixed;
+    top: 0vh;
+    width: 100%;
+    height: 6%;
+    background-color: #04A8FC;
+}
+
+

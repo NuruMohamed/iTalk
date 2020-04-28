@@ -1,0 +1,78 @@
+#user {
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 25%;
+    height: 6%;
+    border-radius: 5px;
+}
+        /* profile photo of the current log in user */
+        #userPhoto {
+            width: 30px;
+            height: 30px;
+        }
+
+        /* name of the current log in user */
+        #userName {
+            /* font-weight: bold; */
+            position: relative;
+            left: 3%;
+            width: 55%;
+            height: 50%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            color: white;
+        }
+
+        /* the logout button */
+        /* #logout {
+            position: relative;
+            left: 5%;
+            width: 17%;
+            height: 40%;
+            text-align: center;
+            font-size: 60%;
+            cursor: pointer;
+            border: none;
+        } */
+
+        /* logout tooltip */
+        #logoutTooltip {
+            position: fixed;
+            right: 0px;
+            width: 1.5%;
+            height: 4%;
+            text-align: center;
+            border-color: white;
+            background-color: rgba(255, 255, 255,0.8);
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+                #arrow {
+                    vertical-align: middle;
+                    color: #04A8FC;
+                }
+                        #logoutTooltip:hover > #arrow {
+                            display: none;
+                        }
+
+                #logoutText {
+                    display: none;
+                }
+                        #logoutTooltip:hover > #logoutText {
+                            display: inline;
+                            font-size: 90%;
+                            vertical-align: middle;
+                        }
+
+                #logoutTooltip:hover {
+                    width: 5%;
+                    background-color: white;
+                    cursor: pointer;
+                }
+                
+                

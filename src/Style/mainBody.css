@@ -1,0 +1,40 @@
+
+.mainBody {
+    display: flex;
+    width: 100%;
+    /* the remaining 6% has taken by the "header" */
+    height: 94%;
+}
+.leftMainPanel {
+    position: fixed;
+    /* position "leftMainPanel" at the left most of a users' screen */
+    left: 0vw;
+    display: flex;
+    justify-content: center;
+    /* position "leftMainPanel" at the bottom of users' screen. This easily leaves a gap for the "header" without using margin-top */
+    bottom: 0vh;
+    border-right : 1px solid rgba(128, 128, 128, 0.1);
+    width: 25%;
+    height: 94vh;
+}
+.middleMainPanel {
+    padding: 10px;
+    width: 50%;
+    height: 100%;
+    /* center "middleMainPanel" between "leftMainPanel" and "rigthMainPanel"*/
+    margin: auto;
+}
+
+.rightMainPanel {
+    position: fixed;
+    /* position "rightMainPanel" at the right most of users' screen*/
+    right: 0vw;
+    /* position "rightMainPanel" at the bottom of users' screen. This easily leaves a gap for the "header" without using margin-top */
+    bottom: 0vh;
+    border-left : 1px solid rgba(128, 128, 128, 0.2);
+    padding: 10px;
+    width: 25%;
+    /* height given in vh as its position is fixed */
+    height: 94vh;
+}
+

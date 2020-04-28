@@ -1,0 +1,24 @@
+#postTweetContainer {
+    /* border: 1px solid red; */
+    margin-top: 2%;
+    height: 15%;
+    width: 100%;
+    margin-bottom: 8%;
+}
+        #postTweetTextarea {
+            resize: none;
+            /* height: 20%; */
+            width: 100%;
+            padding: 2% 1% 0% 1%;
+        }
+        #postTweetButton {
+            position: relative;
+            left: 85%;
+            font-size: 18px;
+            width: 15%;
+            color: white;
+            border: 0px;
+            border-radius: 5px;
+            background-color: #04A8FC;
+            cursor: pointer;
+        }
