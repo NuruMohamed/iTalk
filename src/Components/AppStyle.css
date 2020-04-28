@@ -1,0 +1,13 @@
+
+@media screen and (min-width: 1025px) {
+    #desktop {
+        display: block;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    #desktop {
+        display: none !important;
+    }
+}
+
